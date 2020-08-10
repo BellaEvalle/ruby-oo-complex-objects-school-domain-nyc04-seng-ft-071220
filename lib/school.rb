@@ -23,7 +23,9 @@ attr_accessor :name, :roster
   
   def sorted
     #student_name(array) needs to be sort
-    
+    @roster.each do |grade, student_array|
+      student_array.sort
+  end
   end
   
 end
