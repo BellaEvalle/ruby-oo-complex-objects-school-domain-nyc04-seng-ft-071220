@@ -13,7 +13,7 @@ attr_accessor :name, :roster
     if @roster[grade] 
       @roster[grade] << student_name
     else 
-      @roster[grade] = student_name
+      @roster[grade] = [student_name]
     end
   end
 
