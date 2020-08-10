@@ -1,5 +1,5 @@
-# code here!
 require 'pry'
+
 class School
 
 attr_accessor :name, :roster
@@ -18,8 +18,8 @@ attr_accessor :name, :roster
       @roster[grade] = [student_name]
     end
   end
-
-
+  
+  
   
 end
 binding.pry
