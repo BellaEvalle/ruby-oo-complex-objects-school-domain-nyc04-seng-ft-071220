@@ -1,5 +1,4 @@
 # code here!
-
 class School
 
 attr_accessor :name, :roster
@@ -9,8 +8,8 @@ attr_accessor :name, :roster
     @roster = {}
   end
   
-  def add_student
-    @roster 
+  def add_student(student_name, grade)
+    @roster[]
   end
 
   
