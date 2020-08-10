@@ -21,5 +21,10 @@ attr_accessor :name, :roster
     roster[student_grade]
   end
   
+  def sorted
+    #student_name(array) needs to be sort
+    
+  end
   
 end
+binding.pry
