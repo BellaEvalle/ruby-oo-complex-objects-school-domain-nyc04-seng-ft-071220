@@ -21,7 +21,7 @@ attr_accessor :name, :roster
     roster[student_grade]
   end
   
-  def sorted
+  def sort
    @roster.each do |grade, student_array|
       student_array.sort
       end
