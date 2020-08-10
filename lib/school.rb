@@ -8,8 +8,10 @@ attr_accessor :name, :roster
     @name = name_arg
     @roster = {}
   end
-
-
+  
+  def add_student
+    @roster 
+  end
 
   
   
