@@ -14,7 +14,7 @@ attr_accessor :name, :roster
   
     #1. if the grade is there, add student_name
     #. shovel method
-    
+    binding.pry
   end
 
   
