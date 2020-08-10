@@ -20,4 +20,3 @@ attr_accessor :name, :roster
   
   
 end
-binding.pry
