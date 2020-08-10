@@ -10,11 +10,11 @@ attr_accessor :name, :roster
   end
   
   def add_student(student_name, grade)
-    #@roster[]
-  
-    #1. if the grade is there, add student_name
-    #. shovel method
-    binding.pry
+    if @roster[grade] 
+      @roster[grade] << student_name
+    else 
+      @roster[grade] = student_name
+    end
   end
 
   
