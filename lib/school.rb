@@ -29,4 +29,3 @@ attr_accessor :name, :roster
   end
   
 end
-binding.pry
