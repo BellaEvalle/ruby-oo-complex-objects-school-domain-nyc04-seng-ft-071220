@@ -7,7 +7,6 @@ attr_accessor :name, :roster
   def initialize (name_arg)
     @name = name_arg
     @roster = {}
-    binding.pry
   end
   
   def add_student(student_name, grade)
@@ -16,6 +15,7 @@ attr_accessor :name, :roster
     else 
       @roster[grade] = [student_name]
     end
+      binding.pry 
   end
   
   def grade(student_grade)
