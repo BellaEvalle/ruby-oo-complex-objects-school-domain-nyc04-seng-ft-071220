@@ -15,7 +15,6 @@ attr_accessor :name, :roster
     else 
       @roster[grade] = [student_name]
     end
-    binding.pry
   end
 
   
